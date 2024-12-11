@@ -9,6 +9,12 @@ Make sure you've clone the repo recursively. If you haven't, run `git submodule 
 
 Beyond the usual suspects, the packages n64graphics and vadpcm_enc must be installed from Crash's Modern SDK. You will also need the `convert` utility which is provided by the `imagemagick` package.
 
+To be clear, you will need to run:
+
+```bash
+sudo apt install n64graphics vadpcm-tools imagemagick libmus libnustd libnaudio sox
+```
+
 Finally you will need a custom build of `gcc-mips-n64` with full C++ support, as the current package is incomplete in that regard. A download for a pre-built version will be added to this repo.
 
 Once that's all set up, simply run `make` with an optional job count to build the rom.
