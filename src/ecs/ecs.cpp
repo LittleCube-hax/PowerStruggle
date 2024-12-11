@@ -1,5 +1,6 @@
 #include <cstdint>
 #include <cstring>
+#include <algorithm>
 
 #include <multiarraylist.h>
 #include <mem.h>

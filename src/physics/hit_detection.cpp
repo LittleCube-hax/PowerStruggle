@@ -1,6 +1,7 @@
 #include <array>
 #include <bit>
 #include <cmath>
+#include <algorithm>
 
 #include <ecs.h>
 #include <grid.h>

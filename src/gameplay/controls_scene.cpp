@@ -3,7 +3,7 @@
 #include <files.h>
 #include <mem.h>
 #include <gameplay.h>
-#include <save.h>
+//~ #include <save.h>
 
 ControlsScene::ControlsScene() : howtoplay_image_(nullptr)
 {
@@ -21,7 +21,7 @@ ControlsScene::~ControlsScene()
 bool ControlsScene::load()
 {
     howtoplay_image_ = load_file("textures/howtoplay");
-    load_save();
+    //~ load_save();
     return true;
 }
 

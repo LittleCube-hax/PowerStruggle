@@ -1,5 +1,7 @@
 #include <array>
 
+#include <strings.h>
+
 #include <ultra64.h>
 #include <PR/libmus.h>
 extern "C" {

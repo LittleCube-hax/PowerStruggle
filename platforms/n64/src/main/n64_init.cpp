@@ -19,6 +19,8 @@ void loadThreadFunc(void *);
 
 #include <array>
 
+#include <strings.h>
+
 #define static
 
 void platformInit()

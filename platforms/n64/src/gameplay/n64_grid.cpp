@@ -1,6 +1,7 @@
 #include <ultra64.h>
 
 #include <cmath>
+#include <algorithm>
 
 #include <grid.h>
 #include <cstring>

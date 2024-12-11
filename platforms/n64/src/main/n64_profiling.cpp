@@ -1,6 +1,9 @@
 #include <ultra64.h>
 #include <profiling.h>
+
 #include <cinttypes>
+
+#include <strings.h>
 
 extern "C" {
 #include <debug.h>

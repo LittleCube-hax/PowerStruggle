@@ -6,7 +6,8 @@
 	url = https://github.com/fmtlib/fmt
 [submodule "tools/gltf64"]
 	path = tools/gltf64
-	url = https://github.com/Mr-Wiseguy/gltf64.git
+	url = https://github.com/LittleCube-hax/gltf64.git
+	branch = power-struggle
 [submodule "lib/json"]
 	path = lib/json
 	url = https://github.com/nlohmann/json

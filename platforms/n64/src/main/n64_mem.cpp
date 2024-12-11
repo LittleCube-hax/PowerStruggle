@@ -1,3 +1,5 @@
+#include <strings.h>
+
 #include <n64_mem.h>
 
 #include <ultra64.h>

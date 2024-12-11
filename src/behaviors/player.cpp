@@ -24,7 +24,7 @@ extern "C" {
 #include <scene.h>
 #include <gameplay.h>
 #include <misc_scenes.h>
-#include <save.h>
+//~ #include <save.h>
 #include <audio.h>
 #include <n64_mathutils.h>
 
@@ -308,8 +308,8 @@ void handle_player_hits(ColliderParams* collider, HealthState* health_state, Vec
         {
             if (!is_scene_loading())
             {
-                g_SaveFile.data.level = get_current_level() + 1;
-                do_save();
+                //~ g_SaveFile.data.level = get_current_level() + 1;
+                //~ do_save();
                 cur_level_idx = get_current_level() + 1;                
                 start_scene_load(std::make_unique<LevelTransitionScene>(get_current_level() + 1));
             }
